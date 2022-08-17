@@ -46,5 +46,5 @@ jobs:
           RANGE: ${{ secrets.RANGE }}
           LIMIT: ${{ secrets.LIMIT }}
           DATE_RANGE: ${{ secrets.DATE_RANGE }}
-          SCKEY: ${{ secrets.SCKEY }}
+          SCKEY: server酱
           ISACTION: true
