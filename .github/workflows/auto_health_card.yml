@@ -41,7 +41,7 @@ jobs:
       - name: Run script
         run: node index.js
         env:
-          USERNAME: 02201723
+          USERNAME: '02201723'
           PASSWORD: Zx020318
           RANGE: ${{ secrets.RANGE }}
           LIMIT: ${{ secrets.LIMIT }}
