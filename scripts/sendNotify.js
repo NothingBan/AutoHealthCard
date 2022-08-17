@@ -3,6 +3,8 @@ const got = require('got')
 const SCKEY = process.env.SCKEY
 
 const sendNotify = (title, message) => {
+  console.log(`title1: ${title1}\n`)
+  console.log(`message: ${message}\n`)
   if (SCKEY) {
     got(`https://sctapi.ftqq.com/SCT165783T9plspdMOhHPuYXpj8lEG6pmm.send`, {
       searchParams: {
