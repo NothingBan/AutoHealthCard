@@ -14,6 +14,6 @@ const getTime = () => new Date().toLocaleString()
     logger.pushMessage('执行: browserSign')
     await browserSign()
   }
-  sendNotify('HealthCard', logger.log)
+  pushMessage(`执行次数: ${logger.log}`)
   console.log(`==================脚本结束- 北京时间(UTC+8)：${getTime()}=====================`)
 })()
